@@ -54,7 +54,7 @@ yarn-error.log*
 .env.production.local
 
 # Build files
-frontend/dist/
+
 frontend/.next/
 frontend/out/
 
