@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@react-three/drei": "^10.7.6",
+    "@react-three/fiber": "^9.4.0",
+    "framer-motion": "^12.23.24",
+    "react-intersection-observer": "^10.0.0",
+    "react-spring": "^10.0.3",
+    "three": "^0.181.0"
+  }
+}
