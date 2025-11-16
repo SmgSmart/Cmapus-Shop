@@ -29,8 +29,8 @@
     "DEBUG": "False",
     "SECRET_KEY": "django-insecure-dev-key-2024-campus-shop-marketplace-secure-development",
     "ALLOWED_HOSTS": ".vercel.app,localhost,127.0.0.1",
-    "PAYSTACK_PUBLIC_KEY=pk_test_ddb3d899f6f7fbbd11a2ad9d24e6d0e677bfc50d",
-    "PAYSTACK_SECRET_KEY=sk_test_3083f3d7f674f923fe89db24ca6d88a2d1845cdc",
+    "PAYSTACK_PUBLIC_KEY": "pk_test_ddb3d899f6f7fbbd11a2ad9d24e6d0e677bfc50d",
+    "PAYSTACK_SECRET_KEY": "sk_test_3083f3d7f674f923fe89db24ca6d88a2d1845cdc",
     "PAYSTACK_CALLBACK_URL": "https://your-vercel-url.vercel.app"
   }
 }
