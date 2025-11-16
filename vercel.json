@@ -38,11 +38,6 @@
       "dest": "/frontend/dist/index.html"
     }
   ],
-  "functions": {
-    "campus_shop/wsgi.py": {
-      "runtime": "python3.9"
-    }
-  },
   "env": {
     "PYTHONPATH": ".",
     "DJANGO_SETTINGS_MODULE": "campus_shop.settings"
