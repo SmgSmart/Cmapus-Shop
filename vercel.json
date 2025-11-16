@@ -17,29 +17,20 @@
     }
   ],
   "routes": [
-    {
-      "src": "/static/(.*)",
-      "dest": "/static/$1"
-    },
-    {
-      "src": "/media/(.*)",
-      "dest": "/media/$1"
-    },
-    {
-      "src": "/api/(.*)",
-      "dest": "/campus_shop/wsgi.py"
-    },
-    {
-      "src": "/admin/(.*)",
-      "dest": "/campus_shop/wsgi.py"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/frontend/dist/index.html"
-    }
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/media/(.*)", "dest": "/media/$1" },
+    { "src": "/api/(.*)", "dest": "/campus_shop/wsgi.py" },
+    { "src": "/admin/(.*)", "dest": "/campus_shop/wsgi.py" },
+    { "src": "/(.*)", "dest": "/frontend/dist/index.html" }
   ],
   "env": {
     "PYTHONPATH": ".",
-    "DJANGO_SETTINGS_MODULE": "campus_shop.settings"
+    "DJANGO_SETTINGS_MODULE": "campus_shop.settings",
+    "DEBUG": "False",
+    "SECRET_KEY": "django-insecure-dev-key-2024-campus-shop-marketplace-secure-development",
+    "ALLOWED_HOSTS": ".vercel.app,localhost,127.0.0.1",
+    "PAYSTACK_PUBLIC_KEY=pk_test_ddb3d899f6f7fbbd11a2ad9d24e6d0e677bfc50d",
+    "PAYSTACK_SECRET_KEY=sk_test_3083f3d7f674f923fe89db24ca6d88a2d1845cdc",
+    "PAYSTACK_CALLBACK_URL": "https://your-vercel-url.vercel.app"
   }
 }
